@@ -16,7 +16,15 @@
     <ListView
         android:id="@+id/lvModules"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="417dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
 
 
 </LinearLayout>
