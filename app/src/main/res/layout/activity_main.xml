@@ -8,10 +8,16 @@
     tools:context="com.myapplicationdev.android.tw_listview.FirstActivity">
 
     <TextView
+        android:id="@+id/tvStructure"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="  DMSD Course Structure"
         android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/lvYear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>
